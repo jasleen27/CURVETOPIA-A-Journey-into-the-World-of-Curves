@@ -1,0 +1,18 @@
+Symmetry Detection in Curves
+
+Key Components
+
+Find All Symmetry Lines
+Function: find_all_symmetry_lines(points)
+Description: Computes potential symmetry lines for a set of points. The function identifies vertical, horizontal, and diagonal lines of symmetry by calculating the mean of x and y coordinates and diagonal line equations.
+Parameters:
+points: A numpy array of shape (n, 2) representing the coordinates of the closed shape.
+Returns: A list of lines, each defined by coefficients [a, b, c] in the line equation ax + by + c = 0.
+
+Plotting Function
+Function: plot(points, lines)
+Description: Visualizes the given shape and the detected lines of symmetry. It plots the curve and overlays the symmetry lines on the same graph.
+Parameters:
+points: A numpy array of shape (n, 2) representing the coordinates of the closed shape.
+lines: A list of lines to plot, each defined by coefficients [a, b, c].
+Output: Displays a plot with the shape and symmetry lines.
