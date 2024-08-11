@@ -23,3 +23,5 @@ scikit-learn
 scipy
 svgwrite
 cairosvg
+
+*check programs till the end for corresponding outputs
