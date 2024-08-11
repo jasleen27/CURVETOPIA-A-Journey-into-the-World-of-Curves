@@ -1,0 +1,21 @@
+Using mathematical logic in Identifying Regular Shapes from Curves
+
+Straight Lines
+Description: Curves with constant direction and zero curvature.
+Detection: Identify collinear points using angles or distances between segments.
+
+Circles and Ellipses
+Description: Circles have all points equidistant from a center; ellipses have points with a constant sum of distances from two foci.
+Detection: For circles, check equidistance from a center. For ellipses, verify distance sums from two focal points.
+
+Rectangles and Rounded Rectangles
+Description: Rectangles have four right angles; rounded rectangles have curved edges.
+Detection: Identify right angles for rectangles; distinguish straight from curved edges for rounded rectangles.
+
+Regular Polygons
+Description: Shapes with equal side lengths and angles (e.g., triangles, squares).
+Detection: Check for equal side lengths and angles.
+
+Star Shapes
+Description: Shapes with a central point and multiple radial arms.
+Detection: Detect a central point and analyze radial symmetry.
