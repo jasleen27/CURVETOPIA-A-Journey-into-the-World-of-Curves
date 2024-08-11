@@ -1,1 +1,23 @@
+Used Ramer-Douglas-Peucker Algorithm for curve simplification
+Ramer-Douglas-Peucker Algorithm
+Purpose: Simplify a curve by reducing the number of points while preserving its shape.
 
+Steps
+Initialization:
+
+Start with a set of points representing the curve.
+Find Maximum Distance:
+
+Identify the point farthest from the line segment connecting the start and end points of the curve.
+Check Distance Threshold:
+
+If this distance is greater than a threshold (ε), keep the point; otherwise, approximate the curve with the line segment.
+Recursive Simplification:
+
+Apply the algorithm recursively to the segments created by the farthest point.
+Combine Results:
+
+Merge the simplified segments into the final curve.
+
+Key Parameter
+Epsilon (ε): Distance threshold for point significance. Smaller ε means more accuracy; larger ε means more simplification.
