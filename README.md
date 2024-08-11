@@ -13,6 +13,7 @@ Plot polylines using Matplotlib.
 Detect geometric shapes like lines, circles, and rectangles.
 Regularize shapes by completing curves using cubic splines.
 Visualize symmetry in the polylines.
+Tries to detect occluded figures and their position.
 Export results to SVG and PNG formats.
 
 Requirements
